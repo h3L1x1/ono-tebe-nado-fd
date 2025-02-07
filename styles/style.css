@@ -62,7 +62,7 @@
 .cover {
 position: relative;
 min-height: 100%;
-background-image: url(/images/cover.jpg);
+background-image: url(../images/cover.jpg);
 background-size: cover;
 padding: 165px 45px 20px 50px;
 
@@ -199,7 +199,10 @@ margin-left: 27px;
   margin: 0 20px 0 5px;
 
 }
-
+.card_link {
+  text-decoration: none;
+  
+}
 .card_title {
   position: relative;
   font-size: 22px;
@@ -208,6 +211,7 @@ margin-left: 27px;
   text-decoration-color: white;
   line-height: 26.4px;
   text-decoration-skip-ink: none;
+  text-decoration: underline;
 
 }
 
@@ -266,7 +270,7 @@ margin-left: 27px;
 .about_logo {
   background-image: url(../images/logo-white.svg);
   width: 148px;
- height: 114px;
+  height: 114px;
 
 }
 
@@ -276,22 +280,22 @@ flex-direction: column;
 justify-content: space-between;
 gap: 20px;
 font-size: 20px;
-align-items: baseline;
+align-items: stretch;
 
 }
 
 .intro_main-text {
-padding-top: 80px;
+padding: 80px 25px 0 72px;
 font-size: 20px;
 line-height: 24px;
-padding-right: 100px;
+
 
 }
 
 .intro_main_text {
   font-size: 20px;
   line-height: 24px;
-  padding: 5px 95px 0 0;
+  padding: 5px 25px 0 72px;
 
   }
 
@@ -309,8 +313,6 @@ padding-right: 100px;
   margin: 180px 220px 0 0;
   justify-content: space-between;
   padding: 0 20px 0 53px;
-  
- 
   
 }
 
